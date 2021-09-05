@@ -14,7 +14,6 @@
 </head>
 
     <body>
-    <!--Add a nav bar here -->
     <nav class="navbar navbar-light bg-light">
         <ul class="nav navbar-nav navbar-left">
             <li>
@@ -36,7 +35,7 @@
                         <input type="text" class="form-control" placeholder="Username" name="username">
                         <input type="password" class="form-control" placeholder="Username" name="pswd">
                         <button class="btn btn-primary" type="submit">Login</button>
-                        <a class="btn btn-link" href="#">Sign Up</a>
+                        <a class="btn btn-link" href="{% url 'djangoapp:registration' %}">Sign Up</a>
                     </div>
                 </form>
             </li>
